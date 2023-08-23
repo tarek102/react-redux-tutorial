@@ -8,7 +8,7 @@ function App() {
     dispatch({type: 'INC'});
   }
   const decrement = () => {
-
+    dispatch({type: 'DEC'});
   }
   return (
     <div className="App">
